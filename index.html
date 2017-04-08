@@ -1,0 +1,39 @@
+﻿<!-- index.html -->
+<!DOCTYPE html>
+<html ng-app="fxApp" lang="en">
+<head>
+</head>
+<body>
+
+    <!-- HEADER AND NAVBAR -->
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Angular Routing Example</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
+                    <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main-component></main-component>
+
+    <!-- MAIN CONTENT AND INJECTED VIEWS -->
+
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <script src="shared/shared.restservice.component.js"></script>
+    <script src="shared/shared.contentservice.component.js"></script>
+    <script src="shared/shared.authservices.component.js"></script>
+    <script src="main/main.component.js"></script>
+    <script src="security/security.component.js"></script>
+    <script src="registration/registration.component.js"></script>
+</body>
+</html>
